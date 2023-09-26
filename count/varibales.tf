@@ -6,7 +6,7 @@ variable "ami_id" {
 
 variable "instance_name" {
 
-    default = "mongodb"
+   default = ["MongoDB", "Cart", "Catalogue", "User" , "Redis", "MySQL", "RabbitMQ", "Shipping", "Payment", "Web"]
   
 }
 
